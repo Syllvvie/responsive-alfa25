@@ -100,6 +100,7 @@ h2 {
     margin: 0 auto;
     border-radius: 200px;
     margin-bottom: 20px;
+    overflow: hidden;
 }
 
 #contato label {
@@ -122,6 +123,84 @@ footer {
     color: #fff;
 }
 
-.item h2 {
+footer h2 {
     color: #f4f4f4;
+    padding: 20px 0;
+}
+
+nav .fa-bars {
+    float: right;
+}
+
+#servicos i {
+   font-size: 40px;
+   color: #fff;
+   padding-top: 20px;
+}
+
+#servicos {
+    padding: 40px 0;
+}
+
+.menu-desktop {
+    display: none;
+}
+
+@media (min-width: 680px) {
+    .menu-mobile {
+        display: none;
+    }
+
+    .menu-desktop {
+        display: block;
+        color: #fff;
+    }
+
+    .menu-open li{
+        display: inline;
+        padding: 0 20px;
+    }
+
+    .menu-open {
+        display: inline;
+    }
+
+    .item {
+        width: 29%!important;
+        padding: 1%;
+        margin: 1%;
+        display: inline-block;
+        vertical-align: top;
+    }
+}
+
+.chat{ 
+    position: fixed;
+    z-index: 999;
+    bottom: 30px;
+    right: 20px;
+    background-color: #075e54;
+    width: 165px;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.chat a{
+    color: #fff;
+}
+
+.chat i{
+    font-size: 40px;
+}
+
+.chat span{
+    float: left;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.slider{
+    height: 700px;  
+    background: url(img/law-legal-right-google-slides-theme-slide-01-12a481ca.jpg)
+    50% -95px / cover no-repeat fixed;
 }
