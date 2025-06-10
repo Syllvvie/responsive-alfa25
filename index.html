@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Escritório de Advocacia</title>
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/7294e7df1b.js" crossorigin="anonymous"></script>
 </head>
@@ -65,8 +66,10 @@
     </div>
     <div id="servicos">
         <div class="item">
-            <i class="fa-solid fa-ring"></i>
-            <h2>Divórcio</h2>
+            <a href="divorce.html">
+                <i class="fa-solid fa-ring"></i>
+                <h2>Divórcio</h2>
+            </a>
         </div>
         <div class="item">
             <i class="fa-solid fa-utensils"></i>
@@ -124,7 +127,7 @@
         <div class="content">
             <div class="item">
                 <h2>Fale com a gente!</h2>
-                <form action="">
+                <form action="https://api.whatsapp.com/send?" method="GET">
                     <label for="nome">
                         Nome:
                         <input type="text" name="nome">
@@ -137,7 +140,11 @@
                         Mensagem:
                         <input type="text" name="mensagem">
                     </label>
+                    <label for="text">
+                        <input type="submit" name="text">
+                    </label>
                 </form>
+                <input type="text" name="phone" hidden value="554499776049">
             </div>
             <div class="item">
                 <h2>Dados de Contato</h2>
