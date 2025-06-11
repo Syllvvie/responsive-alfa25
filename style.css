@@ -169,6 +169,16 @@ nav .fa-bars {
     font-weight: bold;
 }
 
+a {
+        opacity: 1;
+        transition: 0.5s;
+}
+
+a:hover{
+    opacity: 0.3;
+    transition: 0.5s;
+}
+
 .page #servicos h2, .page #servicos i {
     color: #4d4d4d;
 }
